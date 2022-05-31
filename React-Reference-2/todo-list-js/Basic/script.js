@@ -50,6 +50,7 @@ btnAdd.onclick = function () {
  * 2.When input is empty show alert on add button or on enter button
  */
 inpTask.addEventListener('keypress', function (event) {
+    // console.log(event);
     if (event.keyCode === 13) {
         let newTaskName = getNewTaskName();
         if (newTaskName.length > 0) {
