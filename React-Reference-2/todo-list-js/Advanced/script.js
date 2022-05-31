@@ -70,5 +70,6 @@ btnClear.addEventListener('click', function(){
     renderTaskList();   
 })
 
+// Retrive the list from local storage on page load
 retriveList()
 renderTaskList();
